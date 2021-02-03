@@ -1,5 +1,5 @@
 import re
-from parameter import smileInfo as SI
+from parameter import atomInfo as AI
  
       
 def atomnNumerical( str ):
@@ -8,7 +8,7 @@ def atomnNumerical( str ):
     atoms = re.findall(pattern1, smile)
     digiAtom = []
     for atom in atoms:
-        digiAtom.append(SI.smileInfo[atom].value)
+        digiAtom.append(AI.atomInfo[atom].value)
     return digiAtom     
     
         

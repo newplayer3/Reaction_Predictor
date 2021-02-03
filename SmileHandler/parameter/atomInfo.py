@@ -1,6 +1,6 @@
 from enum import Enum, unique
 
-class smileInfo(Enum):     # ever atom has size 10 list [AtomicNumber,FirstShellElectron, Secon.... ]
+class atomInfo(Enum):     # ever atom has size 10 list [AtomicNumber,FirstShellElectron, Secon.... ]
     
     
     
