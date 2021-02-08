@@ -1,7 +1,7 @@
 #divide the string into different parts
 
 
-class RecationSmile:
+class Sub1_V1:
     
     
     
@@ -55,6 +55,6 @@ class RecationSmile:
 if __name__ == '__main__':
     s1 = r'Cl.[OH:2][C@@H:3]([CH2:21][CH2:22][CH2:23][CH2:24][CH3:25])[CH:4]=[CH:5][CH:6]1[CH:10]=[CH:9][C:8](=[O:11])[CH:7]1[CH2:12][CH:13]=[CH:14][CH2:15][CH2:16][CH2:17][C:18]([OH:20])=[O:19]>C(O)C>[OH:2][C@@H:3]([CH2:21][CH2:22][CH2:23][CH2:24][CH3:25])[CH:4]=[CH:5][CH:6]1[CH2:10][CH2:9][C:8](=[O:11])[CH:7]1[CH2:12][CH:13]=[CH:14][CH2:15][CH2:16][CH2:17][C:18]([OH:20])=[O:19]'
     s2 = 'A>>C'
-    S1 = RecationSmile(s1)
+    S1 = Sub1_V1(s1)
     print(S1.getAgents())
     
